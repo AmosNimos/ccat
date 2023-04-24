@@ -12,7 +12,16 @@ ccat is a bash script that provides color options for the cat command.
     <h2>Installation</h2>
     <p>To use ccat, simply download the <code>ccat.sh</code> script and make it executable:</p>
     <pre><code>wget https://github.com/amosnimos/ccat/blob/main/ccat.sh
-chmod +x ccat.sh</code></pre>
+    chmod +x ccat.sh</code></pre>
+    <Clone the repository>
+    If you prefer to use git to obtain the script, you can clone the repository using the following command:
+    <pre>
+    git clone https://github.com/AmosNimos/ccat.git
+    </pre>
+    <p>
+    This will create a local copy of the repository in a directory named ccat.
+    You will then need to make the script executable before you can use it.
+    </p>
     <h2>Usage</h2>
     <p>To use ccat, run the script followed by the name of the file you want to display:</p>
     <pre><code>./ccat.sh file.txt</code></pre>
